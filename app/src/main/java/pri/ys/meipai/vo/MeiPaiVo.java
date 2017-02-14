@@ -1,4 +1,4 @@
-package pri.ys.meipaiapi.vo;
+package pri.ys.meipai.vo;
 
 /**
  * Created by YS on 2017/2/13.

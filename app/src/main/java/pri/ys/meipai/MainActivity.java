@@ -1,4 +1,4 @@
-package pri.ys.meipaiapi;
+package pri.ys.meipai;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -23,9 +23,8 @@ import org.xutils.x;
 import java.util.List;
 import java.util.Random;
 
-import pri.ys.meipaiapi.api.MeiPaiApi;
-import pri.ys.meipaiapi.ui.InfoActivity;
-import pri.ys.meipaiapi.vo.MeiPaiVo;
+import pri.ys.meipai.ui.InfoActivity;
+import pri.ys.meipai.vo.MeiPaiVo;
 
 
 public class MainActivity extends BaseActivity {
@@ -131,7 +130,7 @@ public class MainActivity extends BaseActivity {
 
             /**随机图片高度，瀑布流效果*/
             Random r = new Random();
-            int height = r.nextInt(150) + 200;
+            int height = r.nextInt(150) + 250;
             ViewGroup.LayoutParams params = holder.iv.getLayoutParams();
             params.height = height;
             holder.iv.setLayoutParams(params);

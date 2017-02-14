@@ -4,13 +4,15 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="pri.ys.meipaiapi.MainActivity">
+    android:background="#ffededed">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/activity_main_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="#ffff0000"
-        android:dividerHeight="10dp" />
+        android:descendantFocusability="afterDescendants"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15dp"
+        android:scrollbarStyle="outsideOverlay" />
 
 </RelativeLayout>

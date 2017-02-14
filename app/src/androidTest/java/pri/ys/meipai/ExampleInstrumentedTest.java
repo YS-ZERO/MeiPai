@@ -1,4 +1,4 @@
-package pri.ys.meipaiapi;
+package pri.ys.meipai;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

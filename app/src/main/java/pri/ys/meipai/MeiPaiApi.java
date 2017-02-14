@@ -1,4 +1,4 @@
-package pri.ys.meipaiapi.api;
+package pri.ys.meipai;
 
 /**
  * Created by YS on 2017/2/13.

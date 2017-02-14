@@ -1,4 +1,4 @@
-package pri.ys.meipaiapi.ui;
+package pri.ys.meipai.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.webkit.WebView;
 
 import net.ys.base.BaseActivity;
 
-import pri.ys.meipaiapi.R;
+import pri.ys.meipai.R;
 
 public class InfoActivity extends BaseActivity {
 
